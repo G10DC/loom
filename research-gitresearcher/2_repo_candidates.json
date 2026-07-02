@@ -1,0 +1,291 @@
+{
+  "candidatesCount": 16,
+  "candidates": [
+    {
+      "fullName": "josephsenior/langgraph-workflow-orchestrator",
+      "url": "https://github.com/josephsenior/langgraph-workflow-orchestrator",
+      "title": "LangGraph Workflow Orchestration Agent - GitHub",
+      "snippet": "Production-ready agent system built on LangGraph demonstrating advanced workflow orchestration with state machines. Features conditional branching, parallel execution, iterative refinement, human-in-the-loop approvals, and checkpoint recovery.",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ]
+    },
+    {
+      "fullName": "PrefectHQ/prefect",
+      "url": "https://github.com/PrefectHQ/prefect",
+      "title": "GitHub - PrefectHQ/prefect: Prefect is a workflow orchestration ...",
+      "snippet": "Prefect is a workflow orchestration framework for building data pipelines in Python. It's the simplest way to elevate a script into a production workflow. With Prefect, you can build resilient, dynamic data pipelines that react to the world around them and recover from unexpected changes. With just a few lines of code, data teams can confidently automate any data process with features such as ...",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ]
+    },
+    {
+      "fullName": "meirwah/awesome-workflow-engines",
+      "url": "https://github.com/meirwah/awesome-workflow-engines",
+      "title": "meirwah/awesome-workflow-engines - GitHub",
+      "snippet": "Pallets - Simple and reliable workflow engine, written in Ruby Parsl - Python framework for workflow orchestration and parallelization based on a dynamic graph of tasks and their data dependencies. Pegasus - Automate, recover, and debug scientific computations. Piper - A distributed Java workflow engine designed to be dead simple.",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ]
+    },
+    {
+      "fullName": "aws-samples/sample-on-demand-workflow-orchestrator",
+      "url": "https://github.com/aws-samples/sample-on-demand-workflow-orchestrator",
+      "title": "On-Demand Workflow Orchestration Engine - GitHub",
+      "snippet": "On-Demand Workflow Orchestration Engine A serverless, dynamic workflow orchestration engine built with Amazon DynamoDB and AWS Lambda that enables flexible, event-driven task execution with complex dependency patterns.",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ]
+    },
+    {
+      "fullName": "workfloworchestrator/orchestrator-core",
+      "url": "https://github.com/workfloworchestrator/orchestrator-core",
+      "title": "GitHub - workfloworchestrator/orchestrator-core: The workflow ...",
+      "snippet": "Orchestrator-Core Production ready Orchestration Framework to manage product lifecycle and workflows. Easy to use, built on top of FastAPI and Pydantic",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ]
+    },
+    {
+      "fullName": "kestra-io/kestra",
+      "url": "https://github.com/kestra-io/kestra",
+      "title": "GitHub - kestra-io/kestra: Event Driven Orchestration & Scheduling ...",
+      "snippet": "Kestra is an open-source, event-driven orchestration platform for data, AI, and infrastructure workflows. It unifies scheduled and event-driven automation behind a declarative, language-agnostic interface.",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ]
+    },
+    {
+      "fullName": "cadence-workflow/cadence",
+      "url": "https://github.com/cadence-workflow/cadence",
+      "title": "GitHub - cadence-workflow/cadence: Cadence is a distributed, scalable ...",
+      "snippet": "Cadence Workflow is an open-source platform since 2017 for building and running scalable, fault-tolerant, and long-running workflows. This repository contains the core orchestration engine and tools including CLI, schema managment, benchmark and canary.",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ]
+    },
+    {
+      "fullName": "jina-ai/agentchain",
+      "url": "https://github.com/jina-ai/agentchain",
+      "title": "GitHub - jina-ai/agentchain: Chain together LLMs for reasoning ...",
+      "snippet": "Here is how AgentChain can help by chaining different agents together: Use MultiModalAgent (Blip2, Whisper) to handle input from various modalities (text, image, audio), making it easier for customers to ask questions and make requests in a natural way.",
+      "matchedKeywords": [
+        "agent chaining"
+      ]
+    },
+    {
+      "fullName": "rudrankriyam/Chain-of-Agents",
+      "url": "https://github.com/rudrankriyam/Chain-of-Agents",
+      "title": "Chain of Agents Implementation - GitHub",
+      "snippet": "Chain of Agents Implementation Chain of Agents (CoA) implementation in Python and Swift - A framework for long-context tasks using Large Language Models (LLMs).",
+      "matchedKeywords": [
+        "agent chaining"
+      ]
+    },
+    {
+      "fullName": "rod-trent/AgentPlatform",
+      "url": "https://github.com/rod-trent/AgentPlatform",
+      "title": "AgentPlatform/Blogs/BlogPost_AgentChaining.md at main - GitHub",
+      "snippet": "Agent chaining in AI Agent Platform works by capturing the output of a successful agent run and injecting it as the user prompt of the next agent in the configured sequence.",
+      "matchedKeywords": [
+        "agent chaining"
+      ]
+    },
+    {
+      "fullName": "thangchung/agenticloops-ai_agentic-ai-engineering",
+      "url": "https://github.com/thangchung/agenticloops-ai_agentic-ai-engineering",
+      "title": "agenticloops-ai_agentic-ai-engineering/02-effective-agents/01-prompt ...",
+      "snippet": "Hands-on tutorials for building AI agents from scratch. Learn LLM APIs, prompt engineering, tool calling, and the agent loop through practical examples. - thangchung/agenticloops-ai_agentic-ai-engi...",
+      "matchedKeywords": [
+        "agent chaining"
+      ]
+    },
+    {
+      "fullName": "VoltAgent/awesome-ai-agent-papers",
+      "url": "https://github.com/VoltAgent/awesome-ai-agent-papers",
+      "title": "VoltAgent/awesome-ai-agent-papers - GitHub",
+      "snippet": "A curated collection of research papers published in 2026 and sourced from arXiv, covering core topics from the AI agent ecosystem like multi-agent coordination, memory & RAG, tooling, evaluation & observability, and security. Whether you're an AI engineer building agent systems, a researcher exploring new architectures, or a developer integrating LLM agents into products, these papers help ...",
+      "matchedKeywords": [
+        "agent chaining"
+      ]
+    },
+    {
+      "fullName": "aadhil96/agentic-workflow-patterns",
+      "url": "https://github.com/aadhil96/agentic-workflow-patterns",
+      "title": "GitHub - aadhil96/agentic-workflow-patterns: A curated collection of ...",
+      "snippet": "A curated collection of design patterns for building agentic AI workflows with LLMs. Covers core patterns like prompt chaining, tool calling, planning, reflection, routing, multi-agent collaboration, and more. Includes explanations, diagrams, and code examples in popular frameworks (LangChain, LangGraph, AutoGen). - aadhil96/agentic-workflow ...",
+      "matchedKeywords": [
+        "agent chaining"
+      ]
+    },
+    {
+      "fullName": "suri-kunal/ai-agent-patterns",
+      "url": "https://github.com/suri-kunal/ai-agent-patterns",
+      "title": "PDF ai-agent-patterns/Chapter 1_ Prompt Chaining.pdf at main - GitHub",
+      "snippet": "Chapters from \"A Hands-On Guide to Building Intelligent Systems, Antonio Gulli\" - ai-agent-patterns/Chapter 1_ Prompt Chaining.pdf at main · suri-kunal/ai-agent-patterns",
+      "matchedKeywords": [
+        "agent chaining"
+      ]
+    },
+    {
+      "fullName": "romilly/chaining-agents",
+      "url": "https://github.com/romilly/chaining-agents",
+      "title": "Chaining Agents - GitHub",
+      "snippet": "Create and run a simple chain of AI agents. Contribute to romilly/chaining-agents development by creating an account on GitHub.",
+      "matchedKeywords": [
+        "agent chaining"
+      ]
+    },
+    {
+      "fullName": "adobetoby-maker/knowledge-base",
+      "url": "https://github.com/adobetoby-maker/knowledge-base",
+      "title": "knowledge-base/08-agents/agents--prompt-chaining.md at main - GitHub",
+      "snippet": "Agent Pattern: Prompt Chaining Overview Prompt chaining breaks a complex task into a sequence of simpler prompts where each output feeds the next. Better results than one complex prompt because each step gets focused context without distraction from unrelated instructions.",
+      "matchedKeywords": [
+        "agent chaining"
+      ]
+    }
+  ],
+  "topN": [
+    {
+      "fullName": "PrefectHQ/prefect",
+      "url": "https://github.com/PrefectHQ/prefect",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ],
+      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python. - PrefectHQ/prefect",
+      "stars": 2400,
+      "openIssues": 785,
+      "topics": [
+        "python",
+        "infrastructure",
+        "workflow",
+        "data-science",
+        "data",
+        "automation",
+        "pipeline",
+        "workflow-engine",
+        "orchestration",
+        "data-engineering",
+        "observability",
+        "prefect",
+        "data-ops",
+        "ml-ops"
+      ],
+      "readmeSnippet": "Installation\n    \n    ·\n    \n        Quickstart\n    \n    ·\n    \n        Build workflows\n    \n    ·\n    \n        Deploy workflows\n    \n    ·\n    \n        Prefect Cloud\n    \n\nPrefect\nPrefect is a workflow orchestration framework for building data pipelines in Python.\nIt's the simplest way to elevate a script into a production workflow.\nWith Prefect, you can build resilient, dynamic data pipelines that react to the world around them and recover from unexpected changes.\nWith just a few lines of code, data teams can confidently automate any data process with features such as scheduling, caching, retries, and event-based automations.\nWorkflow activity is tracked and can be monitored with a self-hosted Prefect server instance or managed Prefect Cloud dashboard.\nTipPrefect flows can handle retries, dependencies, and even complex branching logic\nCheck our docs or see the example below to learn more!\n\nGetting started\nPrefect requires Python 3.10+. To install the latest version of Prefect, run one of the following commands:\npip install -U prefect\n    \n      \n    \n\n      \n    \n\n    \n  \nuv add prefect\n    \n      \n    \n\n      \n    \n\n    \n  \nThen create and run a Python file that uses Prefect flow and task decorators to orchestrate and observe your workflow - in this case, a simple script that fetches the number of GitHub stars from a repository:\nfrom prefect import flow, task\nimport httpx\n\n\n@task(log_prints=True)\ndef get_stars(repo: str):\n    url = f\"https://api.github.com/repos/{repo}\"\n    count = httpx.get(url).json()[\"stargazers_count\"]\n    print(f\"{repo} has {count} stars!\")\n\n\n@flow(name=\"GitHub Stars\")\ndef github_stars(repos: list[str]):\n    for repo in repos:\n        get_stars(repo)\n\n\n# run the flow!\nif __name__ == \"__main__\":\n    github_stars([\"PrefectHQ/prefect\"])\n    \n      \n    \n\n      \n    \n\n    \n  \nFire up a Prefect server and open the UI at http://localhost:4200 to see what happened:\nprefect server start\n    \n      \n    \n\n      \n    \n\n    \n  \nTo run your workflow on a schedule, turn it into a deployment and schedule it to run every minute by changing the last line of your script to the following:\nif __name__ == \"__main__\":\n    github_stars.serve(\n        name=\"first-deployment\",\n        cron=\"* * * * *\",\n        parameters={\"repos\": [\"PrefectHQ/prefect\"]}\n    )\n    \n      \n    \n\n      \n    \n\n    \n  \nYou now have a process running locally that is looking for scheduled deployments!\nAdditionally you can run your workflow manually from the UI or CLI. You can even run deployments in response to events.\nTipWhere to go next - check out our documentation to learn more about:\n\nDeploying flows to production environments\nAdding error handling and retries\nIntegrating with your existing tools\nSetting up team collaboration features\n\n\nPrefect Cloud\nPrefect Cloud provides workflow orchestration for the modern data enterprise. By automating over 200 million data tasks monthly, Prefect empowers diverse organizations — from Fortune 50 leaders such as Progressive Insurance to innovative disruptors such as Cash App — to increase engineering productivity, reduce pipeline errors, and cut data workflow compute costs.\nRead more about Prefect Cloud here or sign up to try it for yourself.\nprefect-client\nIf your use case is geared towards communicating with Prefect Cloud or a remote Prefect server, check out our\nprefect-client. It is a lighter-weight option for accessing client-side functionality in the Prefect SDK and is ideal for use in ephemeral execution environments.\nConnect & Contribute\nJoin a thriving community of over 25,000 practitioners who solve data challenges with Prefect. Prefect's community is built on collaboration, technical innovation, and continuous improvement.\nCommunity Resources\n🌐 Explore the Documentation - Comprehensive guides and API references\n💬 Join the Slack Community - Connect with thousands of practitioners\n🤝 Contribute to Prefect - Help shape the future of the project\n🔌 Support or create a new Prefect integration - Exten",
+      "lastUpdated": "2026-06-25T23:03:31Z",
+      "score": 1.415,
+      "scoreBreakdown": {
+        "name": 0,
+        "desc": 0.17,
+        "readme": 0.17,
+        "coverage": 0.17,
+        "stars": 0.56,
+        "recency": 1
+      }
+    },
+    {
+      "fullName": "josephsenior/langgraph-workflow-orchestrator",
+      "url": "https://github.com/josephsenior/langgraph-workflow-orchestrator",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ],
+      "description": "Production-ready agent system built on LangGraph demonstrating advanced workflow orchestration with state machines. Features conditional branching, parallel execution, iterative refinement, human-in-the-loop approvals, and checkpoint recovery. Includes 4 example workflows and Chainlit UI with Mermaid diagram visualization. - josephsenior/langgraph-workflow-orchestrator",
+      "stars": 2,
+      "openIssues": 0,
+      "topics": [
+        "openai",
+        "state-machines",
+        "workflow-automation",
+        "parallel-execution",
+        "workflow-orchestration",
+        "chainlit",
+        "langgraph",
+        "agent-orchestration",
+        "checkpoint-recovery",
+        "conditional-routing"
+      ],
+      "readmeSnippet": "LangGraph Workflow Orchestration Agent\n\n\n\n\nproduction-ready framework for orchestrating complex, stateful multi-agent workflows using LangGraph. This project demonstrates how to transition from simple linear LLM chains to sophisticated agentic state machines capable of conditional routing, parallel execution, iterative refinement, and human-in-the-loop interactions.\n🚀 Overview\nBuilt with reliability and scalability in mind, this agent system provides a blueprint for building advanced AI applications. It leverages LangGraph's state management to handle complex logic that traditional scripts struggle with:\n\nStateful Orchestration: Robust state management across multi-step processes.\nAgentic Patterns: Implementation of common patterns like Parallelism, Loops, and Routing.\nHuman-in-the-Loop: Seamless integration of human approval and feedback cycles.\nResilience: Built-in checkpointing and error recovery mechanisms.\n\n🛠️ Key Features\nWorkflow Library\n\nApproval Workflow: Implements a review-and-approve cycle, perfect for content moderation or deployment gates.\nParallel Processing: Scales tasks by executing multiple agents concurrently and synthesizing results.\nIterative Refinement: A self-improving loop where agents generate, review, and refine output until quality thresholds are met.\nConditional Routing: Dynamic path selection based on real-time analysis of the workflow state.\n\nEnterprise Readiness\n\nFull Test Suite: Comprehensive unit and integration tests with LLM mocking.\nMultiple UIs: Interactive Chat UI via Chainlit and alternative Gradio interface.\nDetailed Architecture: Documented system design for easy extensibility.\nType Safety: Built with Pydantic for rigorous data validation.\n\n\nRecommended GitHub Topics: langchain, langgraph, ai-agents, workflow-automation, state-machine, python, llmops\nInstallation\n\nClone the repository:\n\ngit clone <repository-url>\ncd langgraph_workflow_agent\n    \n      \n    \n\n      \n    \n\n    \n  \n\nInstall dependencies:\n\npip install -r requirements.txt\n    \n      \n    \n\n      \n    \n\n    \n  \n\nSet up environment variables:\n\ncp .env.example .env\n# Edit .env and add your API keys\n    \n      \n    \n\n      \n    \n\n    \n  \nUsage\nRunning the Chainlit UI\nchainlit run frontend/chainlit_app.py\n    \n      \n    \n\n      \n    \n\n    \n  \nThe UI will open in your browser at http://localhost:8000\nIf port 8000 is already in use, you can specify a different port:\nchainlit run frontend/chainlit_app.py --port 8001\n    \n      \n    \n\n      \n    \n\n    \n  \nUsing the UI\nChainlit provides a chat-based interface perfect for interacting with workflows:\n\nType workflows to see all available workflows\nType graph <workflow_name> to see a workflow's Mermaid diagram\nType execute <workflow_name> <input> to run a workflow\nType help for more information\n\nThe interface supports markdown and Mermaid diagrams, so you can see workflow graphs rendered beautifully.\nProgrammatic Usage\nfrom backend.workflows.approval_workflow import ApprovalWorkflow\n\n# Initialize workflow\nworkflow = ApprovalWorkflow()\nworkflow.compile()\n\n# Prepare input\ninitial_state = {\n    \"messages\": [],\n    \"data\": {\"content\": \"Your content here\"},\n    \"metadata\": {}\n}\n\n# Execute workflow\nconfig = {\"thread_id\": \"my-thread\", \"configurable\": {\"thread_id\": \"my-thread\"}}\nresult = workflow.run(initial_state, config)\n\nprint(result)\n    \n      \n    \n\n      \n    \n\n    \n  \nProject Structure\nlanggraph_workflow_agent/\n├── backend/\n│   ├── workflows/          # Workflow definitions\n│   │   ├── base_workflow.py\n│   │   ├── approval_workflow.py\n│   │   ├── parallel_workflow.py\n│   │   ├── iterative_workflow.py\n│   │   └── conditional_workflow.py\n│   ├── nodes/              # Workflow nodes\n│   │   ├── base_node.py\n│   │   ├── llm_node.py\n│   │   ├── approval_node.py\n│   │   └── conditional_node.py\n│   ├── agents/             # Agent implementations\n│   │   └── base_agent.py\n│   └── models.py           # Data models\n├── frontend/\n│   ├── chainlit_app.py     # Chainlit UI (main)\n│   └── gradio_app",
+      "score": 1.29,
+      "scoreBreakdown": {
+        "name": 0,
+        "desc": 0.17,
+        "readme": 0.33,
+        "coverage": 0.33,
+        "stars": 0.08,
+        "recency": 0.3
+      }
+    },
+    {
+      "fullName": "meirwah/awesome-workflow-engines",
+      "url": "https://github.com/meirwah/awesome-workflow-engines",
+      "matchedKeywords": [
+        "workflow orchestration"
+      ],
+      "description": "A curated list of awesome open source workflow engines - meirwah/awesome-workflow-engines",
+      "stars": 769,
+      "openIssues": 22,
+      "readmeSnippet": "awesome-workflow-engines\nA curated list of awesome open source workflow engines\nFull fledged product\n\nActivepieces  - Open source no-code business automation, alternative to Zapier\nAiiDA  - Open source workflow manager for computational science with strong focus on performance, provenance, and extensibility.\nAirflow  - Python-based platform for running directed acyclic graphs (DAGs) of tasks\nArgo Workflows  - Open source container-native workflow engine for getting work done on Kubernetes\nArvados  - Open Source data and workflow management platform with emphasis on reproducibily, scale, and secure data sharing, deployable on cloud and HPC.\nAzkaban  - Batch workflow job scheduler created at LinkedIn to run Hadoop jobs.\nBrigade  - Brigade is a tool for running scriptable, automated tasks in the cloud — as part of your Kubernetes cluster.\nBytechef  - Open-source, low-code, extendable API integration & workflow automation platform\nCabloyJS  - A Node.js full-stack framework with workflow engine, based on koa + egg + vue + framework7.\nCadence  - An orchestration engine to execute asynchronous long-running business logic developed by Uber Engineering.\nCamunda  - BPMN-based workflow engine that can be embedded as java library (e.g. Spring Boot) or used standalone, including a graphical modeler and operations tooling.\nCDS  - Enterprise-grade continuous delivery & DevOps automation open source platform developped by OVHcloud.\nCGraph  - A simple-used and cross-platform DAG framework based on C++17 without any 3rd-party.\nCloudSlang  - Workflow engine to automate your DevOps use cases.\nConductor  - Conductor is a microservices orchestration platform that enables developers to build scalable, durable application flows. Conductor workflows are language and framework-agnostic. The Conductor is maintained by Orkes and a team of open-source contributors.\nCopper  - A high performance Java workflow engine.\nCordum  - Governance-first control plane for AI agents and external workers (policy-before-dispatch, approval gates, audit trails).\nCouler  - Unified interface for constructing and managing workflows on different workflow engines, such as Argo Workflows, Tekton Pipelines, and Apache Airflow.\nCovalent  - Workflow orchestration platform for quantum and high performance computing.\nCromwell  - Workflow engine written in Scala and designed for simplicity and scalability. Executes workflows written in WDL or CWL.\nCylc  - Workflow engine that orchestrates complex distributed workflows with cyclic or acyclic graphs. It was originally designed to automate weather forecasting systems at NIWA.\nDagu  - A No-code workflow executor. It executes workflows from declarative YAML definitions.\nDagster  - Data orchestrator for machine learning, analytics, and ETL.\nDapr Workflows  - Author and execute durable & long-running Workflow-as-code at scale in Python, Javascript, .NET, Java & Go. Based on the Open-source Durable Task Framework.\nDidact  - The open source .NET job orchestrator.\nDigDag  - Digdag is a simple tool that helps you to build, run, schedule, and monitor complex pipelines of tasks.\nDolphinScheduler  Apache DolphinScheduler is a distributed and extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of box.\nelsa-workflows  - A .NET Standard 2.0 Workflows Library.\neasy-rules  - The simple, stupid rules engine for Java.\nFireWorks  - FireWorks stores, executes, and manages calculation workflows.\nFission Workflows  - A high-perfomant workflow engine for serverless functions on Kubernetes.\nFlor  - A workflow engine written in Ruby.\nFlyte  - A container-native, type-safe workflow and pipelines platform optimized for large scale processing and machine learning written in Golang. Workflows can be written in any language, with out of the box support for Python.\nForML  - A development framework and MLOps platform for the lifec",
+      "score": 0.857,
+      "scoreBreakdown": {
+        "name": 0,
+        "desc": 0,
+        "readme": 0.17,
+        "coverage": 0.17,
+        "stars": 0.48,
+        "recency": 0.3
+      }
+    },
+    {
+      "fullName": "rod-trent/AgentPlatform",
+      "url": "https://github.com/rod-trent/AgentPlatform",
+      "matchedKeywords": [
+        "agent chaining"
+      ],
+      "description": "A Dead-Simple, Bulletproof Way to Create and Run Scheduled Agents - rod-trent/AgentPlatform",
+      "stars": 3,
+      "openIssues": 0,
+      "readmeSnippet": "BIG NOTE: The Agent Platform is now incorporated into Chervil (https://github.com/chervil-ai/chervil). Further development of this platform will happen there.\nAI Agent Platform\nA standalone Windows 11 desktop application for scheduling and running AI agents against any major LLM provider — no Python, no Streamlit, no external runtime required.\nBuilt with Electron and styled to the Windows 11 Fluent Design System.\n\n\n\nFeatures\n\nMulti-provider LLM support — xAI (Grok), OpenAI, Anthropic (Claude), Ollama (local), or any OpenAI-compatible custom endpoint\nTwo agent types\n\nPrompt agents — send a system + user prompt to an LLM on a schedule and capture the response\nScript agents — run any existing script or executable (Python, PowerShell, Node.js, etc.) on a schedule\n\n\nCron scheduling — pick from common presets, use the visual cron builder, or write your own expression\nEdit agents after creation — change provider, model, prompts, or schedule at any time\nExport & import agents — share agent definitions as portable JSON files; import packs shared by others\nReal-time status — live status indicators and output display on each agent card\nSystem tray — optionally minimize to the system tray and keep agents running in the background\nWindows 11 Fluent UI — Mica material, Acrylic blur, Fluent motion, Segoe UI Variable\nNo cloud dependency — all data stays on your machine in Documents\\AIAgentPlatform\\\nOneDrive sync — because data lives in Documents\\, any cloud sync tool (OneDrive, Dropbox, etc.) automatically roams your agents, settings, and provider keys across every machine you install the app on\n\nNew in v1.3.0\n\nAgent groups — tag any agent into a named group. Group headers appear in the agent list with ▶ Run Group and Enable/Disable All buttons to start or stop an entire group at once\nRun All Now — a single ▶▶ Run All button in the header triggers every enabled agent immediately, no need to click each card individually\nTray run-on-demand — right-click the system tray icon to run any individual agent or an entire group directly from the tray, without opening the main window\nOutput diffing — a Diff button on each agent card opens a side-by-side line diff of the current run vs. the previous run, with added lines in green and removed lines in red\nMCP server per agent — attach an optional MCP server URL to any prompt agent; the platform fetches the available tool list before each run and injects it into the system prompt as context\nOutbound webhooks on completion — configure a webhook URL per agent; on every run the platform POSTs {agentId, name, status, result, timestamp} to your Slack, Teams, or any HTTP endpoint\nChain graph visualization — the ⛓ Chains button opens a visual tree of all agent chains; a built-in DFS cycle detector highlights circular dependencies in red before they cause problems\nAutomatic date/time context — every prompt agent now receives a [System context — Today: …] header automatically, so the LLM always knows the current date and time without requiring {{date}} in the prompt\nGeolocation — on startup the app performs a background IP-based location lookup; {{location}}, {{city}}, {{country}}, and {{region}} are now available as prompt template variables and are included in the auto-injected context header\nStore badge fix — the new-items badge on the 🛒 Store button now correctly tracks which files you have already seen rather than comparing against installed agent names\nStartup minimize fix — the \"minimize to tray at startup\" behavior is now fully reliable on Windows via a dedicated --hidden launch argument\n\nNew in v1.2.0\n\nAgent Store — the 🛒 Store button opens a live gallery of agents from the GitHub repository. Install any individual agent in one click. A red badge shows how many new agents are available\nRun Analytics — the 📊 Analytics button shows a table of run stats per agent: total runs, success rate, failures, average duration, and last run time\nVariable substitution — use {{date}}, {{time}}, {{dayOfWeek}}, {{lastRes",
+      "lastUpdated": "2026-04-14T12:33:37Z",
+      "score": 0.55,
+      "scoreBreakdown": {
+        "name": 0,
+        "desc": 0,
+        "readme": 0,
+        "coverage": 0,
+        "stars": 0.1,
+        "recency": 1
+      }
+    },
+    {
+      "fullName": "VoltAgent/awesome-ai-agent-papers",
+      "url": "https://github.com/VoltAgent/awesome-ai-agent-papers",
+      "matchedKeywords": [
+        "agent chaining"
+      ],
+      "description": "A curated collection of AI agent research papers released in 2026, covering agent engineering, memory, evaluation, workflows, and autonomous systems. - VoltAgent/awesome-ai-agent-papers",
+      "stars": 162,
+      "openIssues": 3,
+      "topics": [
+        "awesome",
+        "memory",
+        "awesome-list",
+        "research-paper",
+        "ai-agents",
+        "rag",
+        "llm",
+        "llm-agents"
+      ],
+      "readmeSnippet": "Hand-picked research papers on the AI agent ecosystem, published in 2026.\n    \n    \n    \n\n\n\n\n\n\n\n\n\n\n    More awesome collections for developers\n    \n    \n\nAwesome AI Agent Papers\nA curated collection of research papers published in 2026 and sourced from arXiv, covering core topics from the AI agent ecosystem like multi-agent coordination, memory & RAG, tooling, evaluation & observability, and security.\nWhether you're an AI engineer building agent systems, a researcher exploring new architectures, or a developer integrating LLM agents into products, these papers help you stay on top of what's actually working, what's breaking, and where the field is heading. Updated weekly from arXiv.\nWhy this list exists\nHundreds of papers are published on arXiv every week, and a growing number of them touch on AI agents. We go through them all, filter the ones that are directly relevant to the AI agent ecosystem, and categorize them so you don't have to. This list only includes papers published from January 2026 onward.\nTable of Contents\n\nMulti-Agent (53)\nMemory & RAG (57)\nEval & Observability (80)\nAgent Tooling (95)\nAI Agent Security (82)\n\n\n\nMulti-Agent (53)\n\n\n\n\nPaper\narXiv ID\n\n\n\n\nAutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing - A multi-agent pipeline that reads a PDE problem description in plain text and writes, debugs, and validates a classical numerical solver end-to-end. Generates spectral and finite-difference code (no neural networks), scoring ~6 orders of magnitude below FNO and CodePDE baselines.\n\n\n\nBeyond Offline A/B Testing: Context-Aware Agent Simulation for Recommender System Evaluation - Evaluates recommender systems via agent-RS interactions.\n\n\n\nCORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery - Introduces long-running multi-agent systems that self-evolve via shared persistent memory, asynchronous execution, and heartbeat-based interventions; 3–10× higher improvement rates than fixed evolutionary-search baselines on 10 math/algorithmic/systems tasks.\n\n\n\nDyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching - Investigates dynamically rewiring agent-to-agent connections at each reasoning round via semantic matching instead of fixed communication topologies.\n\n\n\nRuleSmith: Multi-Agent LLMs for Automated Game Balancing - Explores automated game balancing by combining multi-agent LLM self-play with Bayesian optimization on a civ-style game.\n\n\n\nCommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction - Examines how conformal prediction can filter noisy inter-agent messages to improve multi-robot coordination.\n\n\n\nAgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions - Introduces a 110+ task benchmark to evaluate how well multi-agent LLM systems handle buyer-seller negotiation through natural language.\n\n\n\nGender Dynamics and Homophily in a Social Network of LLM Agents - Analyzes social network formation among 70K+ autonomous LLM agents on Chirper.ai to study emergent group behavior and bias.\n\n\n\nROMA: Recursive Open Meta-Agent Framework for Long-Horizon Multi-Agent Systems - Proposes breaking large tasks into subtask trees that run in parallel across multiple agents to handle long-horizon workflows without exceeding context windows.\n\n\n\nORCH: many analyses, one merge — a deterministic multi-agent orchestrator - Proposes a deterministic multi-agent orchestrator where multiple LLMs analyze a problem independently and a merge agent selects the best answer without any training.\n\n\n\nH-AdminSim: A Multi-Agent Simulator for Realistic Hospital Administrative Workflows - Simulates end-to-end hospital administrative workflows with multi-agent LLMs and FHIR integration to test LLM-driven automation in healthcare settings.\n\n\n\nAgyn: A Multi-Agent System for Team-Based Autonomous Software Engineering - Proposes a multi-agent system for autonomous software engineering that assigns specialized agents t",
+      "score": 0.334,
+      "scoreBreakdown": {
+        "name": 0,
+        "desc": 0,
+        "readme": 0,
+        "coverage": 0,
+        "stars": 0.37,
+        "recency": 0.3
+      }
+    }
+  ]
+}

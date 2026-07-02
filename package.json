@@ -1,0 +1,11 @@
+{
+  "name": "loom",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A Claude Code skill that weaves the Superpower Workflow (Brainstorm -> Spec -> Plan -> Build-TDD -> Verify) into one self-wiring phase spine.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "run": "node scripts/run.mjs"
+  }
+}

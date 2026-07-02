@@ -46,7 +46,7 @@ A module ships only when **all** hold:
 | **NFR-4 Measurability** | Phase success has a verifiable criterion (tests pass, evidence present). | "Optimization without measurement is vanity." |
 | **NFR-5 Transparency** | The user always sees which phase, which gate, which override. | Hidden automation erodes trust even when correct. |
 | **NFR-6 Markdown-first** | All artifacts markdown (token-cheap + version-controllable). | Pairs with `chisel` token discipline; diffable history. |
-| **NFR-7 Security / hygiene** | English-only, no LLM-provenance traces, no `curl\|bash`, validated inputs. | Matches `chisel` distribution rules (R3). |
+| **NFR-7 Security / hygiene** | English-only, no third-party attribution metadata, no `curl\|bash`, validated inputs. | Matches `chisel` distribution rules (R3). |
 
 ---
 

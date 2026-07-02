@@ -9,7 +9,7 @@ artifacts, and an assist/autopilot toggle. It **composes** existing skills rathe
 hundreds of files.
 
 Status: **idea / research phase.** This document distills three inputs:
-1. a GitResearcher run on the intent (generic workflow-engine state of the art — see `research-gitresearcher/final_report.md`);
+1. a research pass on generic workflow-engine state of the art (Prefect, LangGraph, awesome-workflow-engines, AgentPlatform, AI-agent-papers) — yielding the 5-module breakdown and the "minimal-viable-orchestrator first" / "compose, don't reinvent" recommendations;
 2. the thetoolnerd "10 best Claude skills" survey + the **Superpower Workflow** (Brainstorm → Spec → Plan → Build);
 3. a manual competitor scan of the **direct** superpowers alternatives.
 
@@ -115,7 +115,6 @@ complexity later.** Sketch (to be detailed in a ROADMAP):
 
 - Formalize REQUIREMENTS.md + ROADMAP.md (TDD, like chisel).
 - Decide: which external skills to compose per phase (brainstorming, TDD, writing-plans…).
-- Scaffold the skill (SKILL.md + adapters), offline-tested, English-only, no LLM-provenance traces.
+- Scaffold the skill (SKILL.md + adapters), offline-tested, English-only, no third-party attribution.
 
-See [`SOURCES.md`](./SOURCES.md) for every input behind this idea, and
-[`research-gitresearcher/`](./research-gitresearcher/) for the full GitResearcher report.
+See [`SOURCES.md`](./SOURCES.md) for every input behind this idea.

@@ -45,9 +45,8 @@ loom/
 ├── package.json        # node:test, zero runtime deps
 ├── lib/                # pure, tested modules (engine, adapters, gates, store, budget, ux, …)
 ├── scripts/run.mjs     # dry run: weave the spine -> runs/<ts>/
-├── test/               # 42 offline tests (node:test)
-├── IDEA.md · REQUIREMENTS.md · ROADMAP.md · ARCHITECTURE.md · RISKS.md · SOURCES.md
-└── research-gitresearcher/   # the GitResearcher report behind the idea
+├── test/               # offline tests (node:test)
+└── IDEA.md · REQUIREMENTS.md · ROADMAP.md · ARCHITECTURE.md · RISKS.md · SOURCES.md
 ```
 
 ## Install

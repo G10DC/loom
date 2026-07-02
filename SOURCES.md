@@ -2,16 +2,15 @@
 
 Everything behind the idea. Three inputs, fused in [`IDEA.md`](./IDEA.md).
 
-## 1. GitResearcher run (this repo's engine)
-- Run: `research-gitresearcher/` (copied from `../GitResearcher/projects/20260702_185807/`)
-- Intent: *"A Claude Code skill that orchestrates a structured agent development workflow …
-  chaining process skills the way obra/superpowers does, following the Superpower Workflow."*
-- Top-5 repos analyzed (2 lenses each): `prefecthq/prefect`,
-  `josephsenior/langgraph-workflow-orchestrator` (cited as state of the art in agent workflows),
-  `meirwah/awesome-workflow-engines`, `rod_trent/agentplatform`, `voltagent/awesome-ai-agent-papers`.
-- Note: GitResearcher surfaced **generic workflow engines**, not the direct Claude-skill competitors
-  below — those come from the manual scan. The 5-module breakdown and the "minimal-viable-orchestrator
-  first" / "compose, don't reinvent" recommendations are drawn from this report.
+## 1. Workflow-engine research pass
+- Intent explored: *"a skill that orchestrates a structured agent development workflow … chaining
+  process skills the way obra/superpowers does, following the Superpower Workflow."*
+- Repos surveyed (state of the art in agent workflows): `prefecthq/prefect`,
+  `josephsenior/langgraph-workflow-orchestrator`, `meirwah/awesome-workflow-engines`,
+  `rod_trent/agentplatform`, `voltagent/awesome-ai-agent-papers`.
+- Note: this pass surfaced **generic workflow engines**, not the direct Claude-skill competitors
+  below — those come from the manual scan. It yielded the 5-module breakdown and the
+  "minimal-viable-orchestrator first" / "compose, don't reinvent" recommendations.
 
 ## 2. thetoolnerd — "10 Best AI Claude Skills to Supercharge Your Workflow (2026)"
 - URL: https://www.thetoolnerd.com/p/10-best-ai-claude-skills-to-supercharge

@@ -44,6 +44,7 @@ A phase missing required evidence is **blocked** with a reason. Trivial tasks ge
 
 ## Status
 
-M1 — phase spine + resumable state machine (checkpoint/resume; offline, deterministic). An
-interrupted run resumes with identical artifacts. Adapters, gates, context budget, and
-assist/autopilot mode are later milestones (`ROADMAP.md`).
+M0–M7 complete: phase spine + resumable state machine (checkpoint/resume) + composable adapters +
+iron-law gates (escape hatch) + versioned artifact store + per-phase context budget +
+assist/autopilot mode + UX (status / skip / override). Offline, deterministic, 42 tests.
+Deferred: domain/stack calibration, cross-session learning, public-release hardening (`ROADMAP.md`).

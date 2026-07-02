@@ -124,3 +124,55 @@ test('H-ADVANCE-PARTIAL-ADAPTERS: advancing a phase with no adapter fails loudly
   st = advance(st); // brainstorm ok
   assert.throws(() => advance(st, { adapters: partial }), /spec|undefined|Cannot read|adapter/i);
 });
+
+// ── H-RESUME-AWAITING: runToCompletion resumes from awaiting-confirm under confirmed (FR-8) ──
+test('H-RESUME-AWAITING: runToCompletion(awaiting-confirm, {confirmed:true}) completes the spine', () => {
+  let st = createRun('idea X', { mode: 'assist' });
+  st = advance(st); // -> awaiting-confirm on brainstorm
+  assert.equal(st.status, 'awaiting-confirm');
+  const done = runToCompletion(st, { confirmed: true });
+  assert.equal(done.status, 'complete');
+  assert.equal(done.completed.length, PHASES.length);
+});
+
+// ── H-OVERRIDE-ASSIST: override() is the escape hatch even in assist mode (FR-9) ───────────
+test('H-OVERRIDE-ASSIST: override unblocks an awaiting-confirm run and completes', () => {
+  let st = createRun('idea X', { mode: 'assist' });
+  st = advance(st); // awaiting-confirm
+  assert.equal(st.status, 'awaiting-confirm');
+  st = override(st);
+  assert.equal(st.status, 'complete');
+});
+
+// ── H-SKIP-BLOCKED: skip on a blocked phase clears the stale blocked reference ───────────
+test('H-SKIP-BLOCKED: skipping the blocked phase leaves no stale blocked (no complete && blocked)', () => {
+  const adapters = {
+    ...defaultAdapters,
+    verify: { name: 'verify', run: ({ intent }) => ({ output: 'x', artifact: `# Report\n\nIntent: ${intent}\n\n(not done)\n` }) },
+  };
+  let st = runToCompletion(createRun('idea X'), { gate: ironLawGate, adapters }); // blocked on verify
+  assert.equal(st.status, 'blocked');
+  st = skip(st); // drop the blocked phase
+  assert.equal(st.blocked, undefined, 'no stale blocked after skipping it');
+  assert.ok(!(st.status === 'complete' && st.blocked), 'never complete AND blocked');
+});
+
+// ── H-INVARIANT-COMPLETE-CLEAN: a completed run never carries blocked or awaitingConfirm ──
+test('H-INVARIANT-COMPLETE-CLEAN: runWorkflow result state has no blocked / awaitingConfirm', () => {
+  const full = runToCompletion(createRun('idea X'));
+  assert.equal(full.status, 'complete');
+  assert.equal(full.blocked, undefined);
+  assert.equal(full.awaitingConfirm, undefined);
+});
+
+// ── H-INVARIANT-AWAITING-IN-PENDING: awaitingConfirm always points to a phase still pending ─
+test('H-INVARIANT-AWAITING-IN-PENDING: when awaiting-confirm, the awaited phase is still pending', () => {
+  let st = createRun('idea X', { mode: 'assist' });
+  st = advance(st);
+  assert.equal(st.status, 'awaiting-confirm');
+  assert.ok(st.pending.includes(st.awaitingConfirm));
+  st = skip(st); // skip the awaited phase
+  if (st.awaitingConfirm) assert.ok(st.pending.includes(st.awaitingConfirm));
+  else assert.notEqual(st.status, 'awaiting-confirm');
+});
+

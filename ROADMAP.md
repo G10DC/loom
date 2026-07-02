@@ -1,6 +1,6 @@
 # loom — Roadmap
 
-Ordering principle: **minimal-viable-orchestrator first, add complexity later** (GitResearcher's
+Ordering principle: **minimal-viable-orchestrator first, add complexity later** (the research's
 strategic recommendation). Each milestone is independently testable and ships a working slice.
 
 ## At a glance

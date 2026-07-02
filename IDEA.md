@@ -53,7 +53,7 @@ Trivial tasks get an **escape hatch** (skip to Build) — bias toward caution, b
 
 ---
 
-## Modules (from GitResearcher, adapted)
+## Modules (from the research, adapted)
 
 | # | Module | Responsibility |
 |---|---|---|
@@ -98,7 +98,7 @@ Trivial tasks get an **escape hatch** (skip to Build) — bias toward caution, b
 
 ## Roadmap (minimal-viable-orchestrator first)
 
-GitResearcher's strategic recommendation: **start with a minimal viable orchestrator, add
+The research's strategic recommendation: **start with a minimal viable orchestrator, add
 complexity later.** Sketch (to be detailed in a ROADMAP):
 
 1. **MVP spine** — hardcoded Brainstorm→Spec→Plan→Build→Verify with markdown artifacts, no adapters yet.

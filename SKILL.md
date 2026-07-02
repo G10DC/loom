@@ -44,5 +44,6 @@ A phase missing required evidence is **blocked** with a reason. Trivial tasks ge
 
 ## Status
 
-M0 — hardcoded phase spine (offline, deterministic). Orchestration engine, adapters, gates,
-checkpoint/resume, context budget, and assist/autopilot mode are later milestones (`ROADMAP.md`).
+M1 — phase spine + resumable state machine (checkpoint/resume; offline, deterministic). An
+interrupted run resumes with identical artifacts. Adapters, gates, context budget, and
+assist/autopilot mode are later milestones (`ROADMAP.md`).

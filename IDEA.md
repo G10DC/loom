@@ -22,7 +22,7 @@ The space is crowded, but every incumbent trades off against one principle `loom
 | Incumbent | Their stance | `loom`'s wedge |
 |---|---|---|
 | **obra/superpowers** | process skills, but **manual wiring** of the chain | **zero-wiring**: one skill auto-wires the phase chain |
-| **ClaudeFast Code Kit** | integrated: 18 agents + **167 skill files** | **one skill, not 167** (anti-bloat — cf. chisel NFR-3) |
+| **ClaudeFast Code Kit** | integrated: 18 agents + **167 skill files** | **one skill, not 167** (anti-bloat) |
 | **Feature-Driven-Flow** | markdown-first, **rigid** 7-phase | phases **with escape hatches** for trivial tasks + a context budget |
 | **GSD** | context-rot prevention, **standalone** | context-discipline **baked into each phase** |
 | **Hermes Agent** | **autonomous** multi-step orchestration | **assist / autopilot toggle** (human-guided *or* autonomous) |
@@ -30,7 +30,7 @@ The space is crowded, but every incumbent trades off against one principle `loom
 
 The through-line: `loom` is the **thinnest** layer that makes the Superpower Workflow run
 end-to-end with zero wiring, instead of the **thickest** (a 167-file bundle). It pairs naturally
-with `chisel` (context discipline) and `karpathy-guidelines` (methodology).
+with a token-discipline skill (context budget) and a methodology skill (process rigor).
 
 ---
 
@@ -68,7 +68,7 @@ Trivial tasks get an **escape hatch** (skip to Build) — bias toward caution, b
 ## Design sparks (S1–S6)
 
 - **S1 Zero-config / self-wiring** — the headline differentiator vs Superpowers.
-- **S2 Context-discipline per phase** — every phase respects a window budget (synergy with `chisel`).
+- **S2 Context-discipline per phase** — every phase respects a window budget.
 - **S3 Markdown-first artifacts** — spec/plan/notes as markdown: token-cheap + version-controllable.
 - **S4 Rigid spine, escape hatches** — fixed phase order, overridable for trivial tasks.
 - **S5 Assist / Autopilot toggle** — human-guided default, autonomous opt-in (vs Hermes).
@@ -105,7 +105,7 @@ complexity later.** Sketch (to be detailed in a ROADMAP):
 2. **Phase adapters** — plug in external skills per phase (compose anthropics/skills).
 3. **Iron-law gates** — validation between phases + escape hatch.
 4. **Checkpoint/resume** — state persistence across interruptions.
-5. **Context budget** — per-phase window discipline (pair with `chisel`).
+5. **Context budget** — per-phase window discipline.
 6. **Autopilot mode** — assisted default, autonomous opt-in.
 7. **UX/progress** — status, intervene, review.
 
@@ -113,7 +113,7 @@ complexity later.** Sketch (to be detailed in a ROADMAP):
 
 ## Next
 
-- Formalize REQUIREMENTS.md + ROADMAP.md (TDD, like chisel).
+- Formalize REQUIREMENTS.md + ROADMAP.md (TDD).
 - Decide: which external skills to compose per phase (brainstorming, TDD, writing-plans…).
 - Scaffold the skill (SKILL.md + adapters), offline-tested, English-only, no third-party attribution.
 

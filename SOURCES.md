@@ -19,7 +19,7 @@ Everything behind the idea. Three inputs, fused in [`IDEA.md`](./IDEA.md).
   1. **obra/superpowers** (147.7K) — brainstorming, process-skill chaining. **Core inspiration.**
   2. **anthropics/skills** (196.1K) — skill-creator (meta-skill).
   3. **anthropics/skills — design** (391.8K) — official frontend design guidelines.
-  4. **juliusbrussee/caveman** (124.4K) — token reduction (locally superseded by `chisel`).
+  4. **juliusbrussee/caveman** (124.4K) — token reduction (terse-voice, aggressive).
   5. **vercel-labs/agent-browser** (257K) — agent reads the web / docs.
   6. **heygen-com/hyperframes** (36.1K) — product videos.
   7. **remotion-dev/skills** (299.9K) — Remotion video.
@@ -37,7 +37,6 @@ Everything behind the idea. Three inputs, fused in [`IDEA.md`](./IDEA.md).
 - **wshobson/agents** — library of specialized agent definitions (paired with Superpowers).
 - **anthropics/skills** — official, cross-platform skill library. `loom` composes these, never reinvents.
 
-## Sibling skills already on this machine (composition candidates)
-- `chisel` — token/context discipline (NFR/phase-budget partner).
+## Composition candidates
 - `karpathy-guidelines` — methodology (think-before-code, surgical changes, goal-driven) — overlaps
   with `loom`'s iron-law gates; align, don't duplicate.

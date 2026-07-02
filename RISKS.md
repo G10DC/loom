@@ -6,7 +6,7 @@ Severity: 🔴 critical · 🟠 high · 🟡 medium. Each risk has a mitigation 
 |---|---|---|---|---|
 | **R1** | **Bundle bloat / scope creep** — drifting toward a 167-file "agent OS" (ClaudeFast / ECC pattern). | 🔴 | NFR-1 simplicity gate per milestone; compose-over-build (FR-T1); one skill, adapters only. | all |
 | **R2** | **Skill-invocation variability** — external skills change shape; adapters break. | 🟠 | Adapter interface is the only contract; pin a `noop` smoke adapter; version-pin composed skills; fail-non-fatal with a clear reason. | M2 |
-| **R3** | **Context rot on long spines** — a 5-phase run fills the window; quality + cost degrade. | 🟠 | Per-phase budget (FR-7); compact preserving conclusions; pair with `chisel`; artifacts are read-on-demand, not bulk-loaded. | M5 |
+| **R3** | **Context rot on long spines** — a 5-phase run fills the window; quality + cost degrade. | 🟠 | Per-phase budget (FR-7); compact preserving conclusions; artifacts are read-on-demand, not bulk-loaded. | M5 |
 | **R4** | **Iron-law false positives** — gates over-block legitimate trivial work, frustrating users. | 🟠 | Documented escape hatch (FR-5); override is logged; default bias toward caution, but `assist` mode lets the user proceed. | M3 |
 | **R5** | **Resume / state corruption** — checkpoint/resume loses or duplicates an artifact. | 🔴 | Versioned artifacts (FR-6); resume test = interrupted vs uninterrupted run produce identical output; idempotent transitions. | M1 |
 | **R6** | **Composability breakage** — upstream skill (anthropics/skills) ships a breaking change. | 🟡 | Adapters reference skills by name + version; CI smoke against the no-op adapter; document the composed-skill manifest. | M2 |

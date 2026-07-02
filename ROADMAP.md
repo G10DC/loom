@@ -48,7 +48,7 @@ strategic recommendation). Each milestone is independently testable and ships a 
 
 ### M5 — Context-discipline per phase
 - Per-phase window budget; warn at threshold; compact preserving conclusions.
-- Pair with `chisel` rules (compose, don't duplicate).
+- Follow compose-don't-duplicate rules.
 - **Exit**: an over-budget phase triggers warn + compact; phase conclusions survive.
 
 ### M6 — Assist / Autopilot toggle

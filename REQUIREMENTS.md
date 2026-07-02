@@ -45,13 +45,13 @@ A module ships only when **all** hold:
 | **NFR-3 Reversibility** | Every phase/gate bypassable; no irreversible state. | Progressive use requires safe escape hatches and rollback. |
 | **NFR-4 Measurability** | Phase success has a verifiable criterion (tests pass, evidence present). | "Optimization without measurement is vanity." |
 | **NFR-5 Transparency** | The user always sees which phase, which gate, which override. | Hidden automation erodes trust even when correct. |
-| **NFR-6 Markdown-first** | All artifacts markdown (token-cheap + version-controllable). | Pairs with `chisel` token discipline; diffable history. |
-| **NFR-7 Security / hygiene** | English-only, no third-party attribution metadata, no `curl\|bash`, validated inputs. | Matches `chisel` distribution rules (R3). |
+| **NFR-6 Markdown-first** | All artifacts markdown (token-cheap + version-controllable). | Token-cheap; diffable history. |
+| **NFR-7 Security / hygiene** | English-only, no third-party attribution metadata, no `curl\|bash`, validated inputs. | Standard distribution hygiene. |
 
 ---
 
 ## Out of scope (non-goals)
 - Becoming a 167-file bundle or an "agent OS" (ClaudeFast / ECC scale).
 - Reinventing skills that anthropics/skills or wshobson/agents already ship.
-- Replacing `chisel` (token discipline) or `karpathy-guidelines` (methodology) — compose with them.
+- Replacing a token-discipline skill or a methodology skill — compose with them.
 - Vector / semantic memory infrastructure.

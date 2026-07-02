@@ -68,7 +68,7 @@ check(phase: string, evidence: Evidence): { pass: boolean; reason: string; overr
 track(phase: string, tokens: number): void
 shouldCompact(): { compact: boolean; reason: string }
 ```
-- Per-phase window discipline (FR-7); pairs with `chisel` rules (compose, don't duplicate).
+- Per-phase window discipline (FR-7); compose, don't duplicate.
 
 ## Data flow per phase
 1. **Engine** loads phase N's adapter + the previous artifact from the **store**.

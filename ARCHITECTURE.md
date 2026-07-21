@@ -78,8 +78,8 @@ shouldCompact(): { compact: boolean; reason: string }
 5. **Budget** tracks tokens; warns/compacts at thresholds.
 6. **Engine** transitions to phase N+1 (or awaits confirmation in assist mode).
 
-## Claude Code integration
-- Shipped as a Claude Code **skill** (`SKILL.md`); invoked when a task matches the workflow intent.
+## Agent environment integration
+- Shipped as a Agent environment **skill** (`SKILL.md`); invoked when a task matches the workflow intent.
 - Adapters invoke external skills by name (anthropics/skills, wshobson/agents) — no vendored copies.
 - Markdown artifacts double as the human-readable trail (NFR-6).
 

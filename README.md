@@ -1,6 +1,6 @@
 # loom 🧵
 
-A **Claude Code skill** that **weaves the Superpower Workflow** — Brainstorm → Spec → Plan →
+A **Agent skill** that **weaves the Superpower Workflow** — Brainstorm → Spec → Plan →
 Build-TDD → Verify — into one **self-wiring phase spine** with methodology gates between phases,
 markdown-first artifacts, and composable external skills. One skill, not a bundle of hundreds.
 
@@ -40,7 +40,7 @@ no code without a failing test**. A trivial task gets an escape hatch.
 ## Repo layout
 ```
 loom/
-├── SKILL.md            # the Claude Code skill
+├── SKILL.md            # the Agent skill
 ├── README.md           # this file
 ├── package.json        # node:test, zero runtime deps
 ├── lib/                # pure, tested modules (engine, adapters, gates, store, budget, ux, …)
@@ -50,10 +50,10 @@ loom/
 ```
 
 ## Install
-loom is a Claude Code **skill**; make it discoverable:
+loom is a Agent environment **skill**; make it discoverable:
 ```bash
 cd /path/to/loom
-ln -sf "$PWD" ~/.claude/skills/loom      # live edits picked up
+ln -sf "$PWD" ~/.gemini/config/skills/loom      # live edits picked up
 ```
 
 ## Use

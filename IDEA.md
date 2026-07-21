@@ -3,14 +3,14 @@
 > *A loom weaves separate threads into one cloth. `loom` weaves separate process skills —
 > brainstorm, spec, plan, build, verify — into one coherent development workflow.*
 
-A **single, self-wiring Claude Code skill** that orchestrates the **Superpower Workflow**
+A **single, self-wiring Agent skill** that orchestrates the **Superpower Workflow**
 (Brainstorm → Spec → Plan → Build-TDD → Verify), with context-discipline baked in, markdown-first
 artifacts, and an assist/autopilot toggle. It **composes** existing skills rather than bundling
 hundreds of files.
 
 Status: **idea / research phase.** This document distills three inputs:
-1. a research pass on generic workflow-engine state of the art (Prefect, LangGraph, awesome-workflow-engines, AgentPlatform, AI-agent-papers) — yielding the 5-module breakdown and the "minimal-viable-orchestrator first" / "compose, don't reinvent" recommendations;
-2. the thetoolnerd "10 best Claude skills" survey + the **Superpower Workflow** (Brainstorm → Spec → Plan → Build);
+1. a research pass on generic workflow-engine state of the art (Prefect, LangGraph, awesome-workflow-engines, AgentPlatform, agent-agent-papers) — yielding the 5-module breakdown and the "minimal-viable-orchestrator first" / "compose, don't reinvent" recommendations;
+2. the thetoolnerd "10 best Agent skills" survey + the **Superpower Workflow** (Brainstorm → Spec → Plan → Build);
 3. a manual competitor scan of the **direct** superpowers alternatives.
 
 ---

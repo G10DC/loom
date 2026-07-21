@@ -16,7 +16,7 @@ A module ships only when **all** hold:
 
 | ID | Milestone | Requirement | Acceptance criterion |
 |---|---|---|---|
-| **FR-1** | M0 | **Skill scaffold**: a Claude Code skill (`SKILL.md` + frontmatter) discoverable in `~/.claude/skills/`, English-only, no runtime deps. | Skill loads; `description` matches the workflow intent; offline tests pass. |
+| **FR-1** | M0 | **Skill scaffold**: a Agent skill (`SKILL.md` + frontmatter) discoverable in `~/.gemini/config/skills/`, English-only, no runtime deps. | Skill loads; `description` matches the workflow intent; offline tests pass. |
 | **FR-2** | M0 | **Phase spine (hardcoded MVP)**: Brainstorm → Spec → Plan → Build-TDD → Verify runs as a fixed sequence emitting one markdown artifact per phase. | A dry run produces `spec.md`, `plan.md`, `tests`, `report.md` in order; each phase logged. |
 | **FR-3** | M1 | **Workflow Orchestration Engine**: a phase state machine with checkpoint + resume. | An interrupted run resumes from the last checkpoint with no lost artifact; phase transitions are logged. |
 | **FR-4** | M2 | **Phase Execution Adapters**: a uniform adapter interface so each phase delegates to a composable external skill (e.g. anthropics/skills) instead of bundling logic. | A phase runs with a no-op adapter (smoke) AND with one real external-skill adapter; interface identical. |

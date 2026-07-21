@@ -8,12 +8,12 @@ Everything behind the idea. Three inputs, fused in [`IDEA.md`](./IDEA.md).
 - Repos surveyed (state of the art in agent workflows): `prefecthq/prefect`,
   `josephsenior/langgraph-workflow-orchestrator`, `meirwah/awesome-workflow-engines`,
   `rod_trent/agentplatform`, `voltagent/awesome-ai-agent-papers`.
-- Note: this pass surfaced **generic workflow engines**, not the direct Claude-skill competitors
+- Note: this pass surfaced **generic workflow engines**, not the direct Agent-skill competitors
   below — those come from the manual scan. It yielded the 5-module breakdown and the
   "minimal-viable-orchestrator first" / "compose, don't reinvent" recommendations.
 
-## 2. thetoolnerd — "10 Best AI Claude Skills to Supercharge Your Workflow (2026)"
-- URL: https://www.thetoolnerd.com/p/10-best-ai-claude-skills-to-supercharge
+## 2. thetoolnerd — "10 Best agent Agent Skills to Supercharge Your Workflow (2026)"
+- URL: https://www.thetoolnerd.com/p/10-best-ai-agent-skills-to-supercharge
 - **Superpower Workflow** (the chain `loom` runs): Brainstorm → Spec → Plan → Build (TDD).
 - The 10 skills surveyed:
   1. **obra/superpowers** (147.7K) — brainstorming, process-skill chaining. **Core inspiration.**

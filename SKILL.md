@@ -48,3 +48,13 @@ M0–M7 complete: phase spine + resumable state machine (checkpoint/resume) + co
 iron-law gates (escape hatch) + versioned artifact store + per-phase context budget +
 assist/autopilot mode + UX (status / skip / override). Offline, deterministic, 42 tests.
 Deferred: domain/stack calibration, cross-session learning, public-release hardening (`ROADMAP.md`).
+
+
+---
+
+## ⚡ Spark Breakthrough Enhancement
+
+- **Feature**: **Self-Wiring Autonomous Workflow Spine**
+- **Description**: Auto-enforces iron-law gates between plan, build, and verification phases.
+- **Synergy**: Integrated with `forge` (testing) & `mirror` (code review).
+- **Framework**: Applied via the `spark` 4-Lens Lateral Ideation Engine.

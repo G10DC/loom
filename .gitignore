@@ -1,3 +1,8 @@
 node_modules/
 runs/
 .DS_Store
+
+# Enforced by G10DC Pruning
+.ast-cache.json
+*.log
+.env

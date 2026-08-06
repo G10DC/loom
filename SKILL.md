@@ -52,9 +52,19 @@ Deferred: domain/stack calibration, cross-session learning, public-release harde
 
 ---
 
-## ⚡ Spark Breakthrough Enhancement
+## Spark Breakthrough Enhancement
 
 - **Feature**: **Self-Wiring Autonomous Workflow Spine**
 - **Description**: Auto-enforces iron-law gates between plan, build, and verification phases.
 - **Synergy**: Integrated with `forge` (testing) & `mirror` (code review).
 - **Framework**: Applied via the `spark` 4-Lens Lateral Ideation Engine.
+
+
+## When to use
+
+- Primary domain workflow execution as specified in frontmatter description.
+
+
+## When NOT to use
+
+- Tasks outside declared skill scope or handled by specialized sibling skills.
